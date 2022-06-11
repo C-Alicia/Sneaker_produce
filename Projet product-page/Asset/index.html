@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/Asset/css/styles.css">
+  <title>Product page</title>
+
+</head>
+
+<body>
+  <div class="wrapper_contain">
+    <header>
+
+      <div class="header_left flex">
+        <div class="title">
+          <img src="/Asset/images/icon-menu.svg" alt="menu-buger" id="menu">
+          <img class="logo" src="/Asset/images/logo.svg" alt="logo">
+
+          <nav class="navbar_desktop">
+            <img id="closebtn" src="/Asset/images/icon-close.svg" alt="">
+            <ul class="nav-desktop">
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="avatar flex">
+          <img class="basket" src="/Asset/images/icon-cart.svg" alt="panier">
+          <span class="compt_pan">0</span>
+
+          <img class="ava" src="/Asset/images/image-avatar.png" alt="avatar">
+        </div>
+      </div>
+
+      <div class="lign"></div>
+    </header>
+
+    <nav class="mobile_navbar">
+      <img id="close_mobile" src="/Asset/images/icon-close.svg" alt="">
+      <ul class="navlinks_mobile">
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+
+
+    <div class="cart_vide ">
+      <div class="header_card">
+        <h2>Cart</h2>
+      </div>
+      <hr>
+      <div class="body_card">
+        <p>Your cart is empty.</p>
+      </div>
+    </div>
+
+    <div class="cart_rempli">
+      <div class="header_card">
+        <h2>Cart</h2>
+      </div>
+      <hr>
+      <div class="body_card">
+
+        <img class="img_p" src="/Asset/images/image-product-1-thumbnail.jpg" alt="">
+
+        <div class="produit">
+          <h3> Fall Limited Edition Sneakers</h3>
+          <div>
+            <span class="united">$</span>
+            <span class="firstnumber"> </span>
+            <span class="operateur">*</span>
+            <span class="nbq">0</span>
+            <span>=</span>
+            <span class="resultat"> </span>
+            <span>$</span>
+          </div>
+        </div>
+        <img class="delete" src="/Asset/images/icon-delete.svg" alt="">
+      </div>
+      <button class="btn-orange">Checkout</button>
+    </div>
+
+
+    
+
+    <main>
+      
+
+      <div class="containeur_main flex">
+        <div class="side-left">
+          <article class="left flex">
+            <div class="side_img">
+              <img class="big_image active" src="/Asset/images/image-product-1.jpg" alt="">
+              <img src="/Asset/images/image-product-2.jpg" alt="">
+              <img src="/Asset/images/image-product-3.jpg" alt="">
+              <img src="/Asset/images/image-product-4.jpg" alt="">
+            </div>
+            <div class="fleche">
+              <div class="left_arrow">
+                <img src="/Asset/images/icon-previous.svg" alt="">
+              </div>
+              <div class="right_arrow">
+                <img src="/Asset/images/icon-next.svg" alt="">
+              </div>
+            </div>
+            <div class="thumbnail_image flex">
+              <img class="thumbnail_img active" src="/Asset/images/image-product-1-thumbnail.jpg" alt="">
+              <img class="thumbnail_img" src="/Asset/images/image-product-2-thumbnail.jpg" alt="">
+              <img class="thumbnail_img" src="/Asset/images/image-product-3-thumbnail.jpg" alt="">
+              <img class="thumbnail_img" src="/Asset/images/image-product-4-thumbnail.jpg" alt="">
+            </div>
+          </article>
+        </div>
+
+        <div class="side-right">
+
+          <article class="right">
+            <h2>Sneaker Company </h2><br>
+
+            <h1> Fall Limited Edition Sneakers</h1>
+
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+              durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+            <div class="price">
+              <span>$</span>
+              <span class="priced">125.00</span> <span class="pourcentage">50%</span> <br>
+              <span class="reduc">$250.00</span>
+            </div>
+
+            <div class="panier">
+              <div class="quantite">
+                <button class="diminuer"><img src="/Asset/images/icon-minus.svg" alt=""></button>
+                <span class="compteurq">0</span>
+                <button class="augmenter"><img src="/Asset/images/icon-plus.svg" alt=""></button>
+              </div>
+              <button class="btn-orangeadd"> <img src="/Asset/images/icon-cart white.svg"> Add to cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <div class="zoomprod">
+      <div class="containeur_zoom">
+        <img class="croix" src="/Asset/images/icon-close.svg" alt="close">
+        <div class="bigimage">
+          <img class = "active" src="/Asset/images/image-product-1.jpg" alt="">
+          <img src="/Asset/images/image-product-2.jpg" alt="">
+          <img src="/Asset/images/image-product-3.jpg" alt="">
+          <img src="/Asset/images/image-product-4.jpg" alt="">
+        </div>
+        <div class="arrowleft">
+          <img class="arleft" src="/Asset/images/icon-previous.svg" alt="">
+        </div>
+        <div class="arrowright">
+          <img class="aright" src="/Asset/images/icon-next.svg" alt="">
+        </div>
+        <div class="imagedescrip">
+          <img class="thumbnailp" src="/Asset/images/image-product-1-thumbnail.jpg" alt="">
+          <img class="thumbnailp" src="/Asset/images/image-product-2-thumbnail.jpg" alt="">
+          <img class="thumbnailp" src="/Asset/images/image-product-3-thumbnail.jpg" alt="">
+          <img class="thumbnailp" src="/Asset/images/image-product-4-thumbnail.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+  <script src="/Asset/js/app.js"></script>
+
+</body>
+
+</html>
